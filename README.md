@@ -21,3 +21,7 @@ Modify (Files) -> Stage (git add) -> Commit (git commit) -> Push (git push)
 ```powershell
 git status
 ```
+We can also inspect tracked-file edits using:
+```powershell
+git diff
+```
