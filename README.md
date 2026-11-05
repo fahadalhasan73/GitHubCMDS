@@ -26,9 +26,20 @@ We can also inspect tracked-file edits using:
 git diff
 ```
 ### Step 03: Stage the changes
-Now we need to tell Git which changes should go into the next commit.  
-ddfc
-
+Now we need to tell Git which changes should go into the next commit. We will have two choices  
+**Option A: Stage everything (convenient for small projects)**  
+```powershell
+git add .
+```
+This stages eligible new, modified, and deleted files under the current directory.  
+**Option B: Stage specific files (better when you have unrelated changes)**  
+```powershell
+git add index.html
+git add images/
+```
+This stages only the specified file and the files inside the new folder.  
+Reasoning: Staging separates everything we've edited from what we actually want to save in the next commit.  
+For example, imagine we modified five files but only want to commit two. Git lets us stage only those two.  
 
 
 
