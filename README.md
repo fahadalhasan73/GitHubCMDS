@@ -17,7 +17,7 @@ This should display information about the current branch and untracked files, if
 Modify (Files) -> Stage (git add) -> Commit (git commit) -> Push (git push) 
 
 
-### Step 03: Check what has changed
+### Step 02: Check what has changed
 ```powershell
 git status
 ```
@@ -25,3 +25,37 @@ We can also inspect tracked-file edits using:
 ```powershell
 git diff
 ```
+### Step 03: Stage the changes
+Now we need to tell Git which changes should go into the next commit.  
+ddfc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
