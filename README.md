@@ -14,6 +14,14 @@ This should display information about the current branch and untracked files, if
 
 
 ## How to push an edited/modified file from local PC to GitHub
+
+```powershell
+git status
+git add .
+git commit -m "Add teaching materials and update styles"
+git push
+```
+
 Modify (Files) -> Stage (git add) -> Commit (git commit) -> Push (git push) 
 
 
@@ -40,6 +48,24 @@ git add images/
 This stages only the specified file and the files inside the new folder.  
 Reasoning: Staging separates everything we've edited from what we actually want to save in the next commit.  
 For example, imagine we modified five files but only want to commit two. Git lets us stage only those two.  
+After staging we can check the updated status using
+```powershell
+git status
+```
+Note: Git tracks files, not empty folders.  
+
+### Step 04: Create a commit
+```powershell
+git commit -m "Add logo and update homepage (Message actually)"
+```
+A commit records a snapshot of your staged changes in the local Git repository.  
+A commit includes a unique hash, the author, timestamp, message, and references to the saved project snapshot and previous history.  
+Important: After committing, New changes are saved in Git locally, but they are not yet uploaded to GitHub. We can create several commits locally before pushing them together.  
+
+### Step 05: Push the commit to GitHub
+```powershell
+git push
+```
 
 
 
