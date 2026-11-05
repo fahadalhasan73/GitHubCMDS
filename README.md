@@ -14,5 +14,10 @@ This should display information about the current branch and untracked files, if
 
 
 ## How to push an edited/modified file from local PC to GitHub
-Modify (Files) -> Stage (git add) -> Commit (git commit) -> Push (git push) \n
-efef
+Modify (Files) -> Stage (git add) -> Commit (git commit) -> Push (git push) 
+
+
+### Step 03: Check what has changed
+```powershell
+git status
+```
