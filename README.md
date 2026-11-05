@@ -15,7 +15,7 @@ This should display information about the current branch and untracked files, if
 
 ## How to push an edited/modified file from local PC to GitHub
 
-```powershell
+```TypeScript
 git status
 git add .
 git commit -m "Add teaching materials and update styles"
