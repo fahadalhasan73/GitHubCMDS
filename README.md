@@ -10,3 +10,9 @@ Code: git init
 This creates a hidden .git directory inside level2Batch8(Folder). It allows Git to start tracking the project history.
 Next run: git status
 This should display information about the current branch and untracked files, if any.
+
+
+
+## How to push an edited/modified file from local PC to GitHub
+Modify (Files) -> Stage (git add) -> Commit (git commit) -> Push (git push) \n
+efef
